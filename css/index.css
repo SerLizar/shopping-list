@@ -1,0 +1,24 @@
+button {
+	padding: 4px 4px;
+}
+
+ul {
+	padding: 0;
+}
+
+.shoppingListItem {
+	padding: 10px;
+	color: grey;
+	display: block;
+	border: 1px solid lightgrey;
+	margin-bottom: 10px;
+}
+
+.shoppingListItem > div {
+	font-style: oblique;
+	margin-bottom: 10px;
+}
+
+.checkedItem {
+	text-decoration: line-through;
+}
